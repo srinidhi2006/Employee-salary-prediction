@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("rf_income_model.pkl")
+model = joblib.load("income_pipeline_compressed.pkl")
 
 st.title("Income Prediction (Random Forest)")
 
